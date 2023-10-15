@@ -1,20 +1,20 @@
-# create-svelte
+# github-contributions-api
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+Setup an API hosted via vercel 🔥 [`API Invocation`](https://github-contributions-api-plum.vercel.app/awindest/2023).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Setup a 'hobby' account on vercel
+## Connected to my github account
+## Created a project
+## Now everytime I push to the repository it automatically get deployed into production.
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+git add .
+git commit -m "pertinent message"
+git push
 ```
 
-## Developing
+## BOOM! 💥 auto deploy into production. Sweet!
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -36,3 +36,5 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+This was not necessary as sveltekit has the adapter-auto which seamlessly works with vercel behind the scenes.
+

@@ -15,7 +15,7 @@ export async function GET({ params, setHeaders }) {
 	const html = await getContributions(params)
 	return json(parseContributions(html))
 }
-
+// this was really clever on joyofcode's part - figuring out the url to get the data from; he is a genius 8)
 async function getContributions({ user, year }) {
 	let api = `https://github.com/users/${user}/contributions?from=${year}-12-01&to=${year}-12-31`
 
@@ -39,7 +39,7 @@ async function getContributions({ user, year }) {
 		throw new Error(`Something went wrong: ${e}`)
 	}
 }
-
+// parsing was tedious to create in the youtube video and if they change the html meta-data this will break
 function parseContributions(html) {
 	const { document } = parseHTML(html)
 
@@ -57,7 +57,7 @@ function parseContributions(html) {
 
 			if (data.length > 1) {
 				const contribution = {
-					count: data[0] === 'No' ? 0 : +data[0],
+					count: data[0] === 'No' ? 0 : +data[0], // No means no contributions
 					name: data[3].replace(',', ''),
 					month: data[4],
 					day: +data[5].replace(',', ''),
