@@ -18,7 +18,7 @@ Setup an API hosted via vercel 🔥 [`API Invocation`](https://github-contributi
 ## Setup a 'hobby' account on vercel
 ## Connected to my github account
 ## Created a project
-## Now everytime I push to the repository it automatically get deployed into production.
+## Now everytime I push to the repository it automatically gets deployed into production.
 
 ```bash
 git add .
