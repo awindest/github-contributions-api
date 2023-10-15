@@ -19,7 +19,6 @@
 	},
 	"dependencies": {
 		"linkedom": "^0.15.1",
-		"node": "^20.7.0",
 		"vercel": "^32.4.1"
 	}
 }
