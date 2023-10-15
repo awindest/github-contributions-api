@@ -5,8 +5,8 @@
 <div class="text-center">
 	<h1>GitHub Contributions API</h1>
 
-	<a href="https://gh-contributions-api.vercel.app/awindest/2023">
-		https://gh-contributions-api.vercel.app/user/year
+	<a href="https://github-contributions-api-plum.vercel.app/awindest/2023">
+		https://github-contributions-api-plum.vercel.app/user/year
 	</a>
 </div>
 
