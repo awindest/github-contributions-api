@@ -1,4 +1,4 @@
-# github-contributions-api
+# [github-contributions-api](https://github.com/awindest/github-contributions-api)
 
 ## Building
 
